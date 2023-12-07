@@ -1,0 +1,73 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #a4aaa4; /* Verde Claro para o fundo */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* Adicione estilos para a foto de capa e o logo aqui */
+}
+
+nav {
+    background: white; /* Vermelho para o fundo */
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #161616; 
+}
+
+.projeto {
+    margin: 20px 0;
+}
+
+.projeto img {
+    max-width: 100%;
+}
+
+.foto {
+    display: inline-block;
+    margin: 10px;
+}
+
+.foto img {
+    max-width: 100%;
+}
+
+footer {
+    background: white; 
+    text-align: center;
+    padding: 10px;
+    color: black; 
+}
+.imagem-padrao {
+    max-width: 50%; 
+    display: block; 
+    margin: 0 auto; 
+}
+

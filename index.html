@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Nome - Portfólio</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-5">
+        <div style="text-align: center;"><h1><stronng>Meu Portfólio - Tiago Levi Silva Costa</stronng></h1></div>
+    </header>
+
+    <nav class="bg-light py-3">
+        <div class="container">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ifrn.html">IFRN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dedicatoria.html">Dedicatória</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container py-5">
+        <section id="index">
+            <h1>Informações Profissionais</h1>
+            <p>Eu sou Tiago Levi Silva Costa, sou brasileiro, com 18 anos de idade, estudante do 4° ano do Curso Técninco em Informática na modalidade integrada ao ensino médio, do 
+            Instituto Federal do Rio Grande do Norte no Campus Avançado Lajes. Desenvolvi esse site com o intuito de deixar registrado um pouco dos meus aprendizados no curso técninco de informática 
+            ,sendo que já criei outras aplicações web, porém essa visa justamente apresentar um pouco da minha passagem pelo campus. Durante minha passagem por essa querida instituição desfrutei de oportunidades ímpares e 
+            extraorinárias no campus, além da oportunidade de estagiar em minha área de formação como tecninco em informática em uma empresa na cidade de Lajes
+            ,tratava-se do Serviço Notarial e Registral de Lajes. Pude ao longo de minha passagem ter contatos com essas diversas experiências e conhecer
+            professores e colegas de turma que se tornaram ao longo do tempos meus amigos.</p>
+        </section>
+
+        <section id="portfolio">
+            <div style="text-align: center;">
+                <h2>Galeria de Fotos no IFRN</h2>
+            </div>
+                    <div class="galeria">
+                        <p><img class="imagem-padrao" src="i2.jpeg" alt="IFRN Foto 1"></p>
+                        <p><img class="imagem-padrao" src="i1.jpeg" alt="IFRN Foto 2"></p>
+                        <p><img class="imagem-padrao" src="i3.jpeg" alt="IFRN Foto 3"></p>
+                        <p><img class="imagem-padrao" src="i5.jpeg" alt="IFRN Foto 5"></p>
+
+                    </div>
+                </section>
+        </section>
+
+        <section id="contato">
+            <h1>Formulário de Contato</h1>
+            <form action="processa_formulario.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        </section>
+    </main>
+
+    <footer class="bg-primary text-white text-center py-3">
+        <p>Todos os direitos reservados © Tiago Levi Silva Costa</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
